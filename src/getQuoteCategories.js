@@ -24,7 +24,7 @@ async function getQuoteCategories() {
     });
 
     categoriesLinks.splice(-1, 1) // hack for More Topics button
-
+    categoriesLinks.shift();
     for (let link of categoriesLinks) {
         const currentCategory = link.replace('/quotes/topics/topic_', '').replace('.html', '');
         // This is something I am not proud of :|
@@ -50,6 +50,7 @@ async function getQuoteCategories() {
             categoryData('#quotesList .boxyPaddingBig').each(function(i, elem) {
                 quoteIndex++;
                 let quote = {
+                    id: quoteIndex,
                     quote: categoryData(this).find('span.bqQuoteLink a').text(),
                     author: categoryData(this).find('div.bq-aut a').text(),
                     category: currentCategory
