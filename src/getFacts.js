@@ -1,63 +1,60 @@
 import axios from './utils/aaxios.js';
 import cheerio from 'cheerio';
 
-async function getData() {
-    const resBrainyQuote = await axios.get('http://www.brainyquote.com/').catch(resBrainyQuote => {
-        throw resBrainyQuote;
+const categories = {
+    "world" : [12, 13, 14, 15, 16, 17, 18, 47, 19, 20],
+    "history": [25, 28],
+    "society": [37, 29, 36, 35, 45, 33, 32, 31, 30, 34, 43],
+    "nature": [39, 44, 42, 41, 46]
+};
+
+const baseURL = 'http://www.factslides.com';
+
+async function getFacts() {
+    const resTarget = await axios.get(baseURL).catch(resTarget => {
+        throw resTarget;
     });
 
-    let brainyQuoteData = cheerio.load(resBrainyQuote.data);
+    let targetData = cheerio.load(resTarget.data);
     let categoriesLinks = [];
 
-    let quotesJSON = {};
-    let quoteIndex = 0;
+    let resultJSON = {};
+    let dataIndex = 0;
 
-    const baseUrl = 'http://www.brainyquote.com';
-
-    brainyQuoteData('#allTopics .bqLn').each(function(i, elem) {
-        let link = brainyQuoteData(this).find('div.bqLn a').attr('href');
+    targetData('#slideshows_menu #slideshows_menu_left > div').each(function(i, elem) {
+        let link = targetData(this).find('a').attr('href');
         categoriesLinks.push(link);
     });
 
-    categoriesLinks.splice(-1, 1) // hack for More Topics button
-    categoriesLinks.shift();
     for (let link of categoriesLinks) {
-        const currentCategory = link.replace('/quotes/topics/topic_', '').replace('.html', '');
-        // This is something I am not proud of :|
-        let url = '';
-        const dotHtml = '.html';
-        link = link.replace('.html', '');
-        // End of misery
+        let categoryURL = baseURL.concat(link);
+        const resCategory = await axios.get(categoryURL).catch(function resCategory(error) {
+            if (error.response) {
+                console.log('error: ', error.response);
+                return;
+            } else
+                throw resCategory;
+        });
 
-        // Go through first 9 pages of each category; wrong links redirect to first page
-        for (let pageNo = 1; pageNo <= 9; pageNo++) {
-            url = baseUrl.concat(link, pageNo, dotHtml);
-            console.log(url);
-            const resCategory = await axios.get(url).catch(function resCategory(error) {
-                if (error.response) {
-                    console.log('error: ', error.response);
-                    return;
-                } else
-                    throw resCategory;
-            });
+        let categoryData = cheerio.load(resCategory.data);
 
-            let categoryData = cheerio.load(resCategory.data);
-
-            categoryData('#quotesList .boxyPaddingBig').each(function(i, elem) {
-                quoteIndex++;
-                let quote = {
-                    id: quoteIndex,
-                    quote: categoryData(this).find('span.bqQuoteLink a').text(),
-                    author: categoryData(this).find('div.bq-aut a').text(),
-                    category: currentCategory
-                };
-                quotesJSON[quoteIndex] = quote;
-                console.log('[' + quoteIndex + ']' + ' Quote:\n', quote);
-            });
-        }
+        categoryData('#items ol > div.i').each(function(i, elem) {
+            let text = targetData(this).find('li').text();
+            let source = targetData(this).find('.factTools #source').attr('title');
+            console.log(source);
+        //     // dataIndex++;
+        //     // let quote = {
+        //     //     id: dataIndex,
+        //     //     quote: categoryData(this).find('span.bqQuoteLink a').text(),
+        //     //     author: categoryData(this).find('div.bq-aut a').text(),
+        //     //     category: currentCategory
+        //     // };
+        //     // resultJSON[dataIndex] = quote;
+        //     // console.log('[' + dataIndex + ']' + ' Quote:\n', quote);
+        });
     }
-    console.log(quotesJSON);
-    return quotesJSON;
+    // console.log(resultJSON);
+    // return resultJSON;
 }
 
-export default getQuoteCategories;
+export default getFacts;

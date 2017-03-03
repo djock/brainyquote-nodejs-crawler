@@ -1,21 +1,21 @@
 import axios from './utils/aaxios.js';
 import cheerio from 'cheerio';
 
-async function getData() {
-    const resBrainyQuote = await axios.get('http://www.brainyquote.com/').catch(resBrainyQuote => {
-        throw resBrainyQuote;
+async function getQuotes() {
+    const resTarget = await axios.get('http://www.brainyquote.com/').catch(resTarget => {
+        throw resTarget;
     });
 
-    let brainyQuoteData = cheerio.load(resBrainyQuote.data);
+    let targetData = cheerio.load(resTarget.data);
     let categoriesLinks = [];
 
-    let quotesJSON = {};
-    let quoteIndex = 0;
+    let resultJSON = {};
+    let dataIndex = 0;
 
     const baseUrl = 'http://www.brainyquote.com';
 
-    brainyQuoteData('#allTopics .bqLn').each(function(i, elem) {
-        let link = brainyQuoteData(this).find('div.bqLn a').attr('href');
+    targetData('#allTopics .bqLn').each(function(i, elem) {
+        let link = targetData(this).find('div.bqLn a').attr('href');
         categoriesLinks.push(link);
     });
 
@@ -44,20 +44,20 @@ async function getData() {
             let categoryData = cheerio.load(resCategory.data);
 
             categoryData('#quotesList .boxyPaddingBig').each(function(i, elem) {
-                quoteIndex++;
+                dataIndex++;
                 let quote = {
-                    id: quoteIndex,
+                    id: dataIndex,
                     quote: categoryData(this).find('span.bqQuoteLink a').text(),
                     author: categoryData(this).find('div.bq-aut a').text(),
                     category: currentCategory
                 };
-                quotesJSON[quoteIndex] = quote;
-                console.log('[' + quoteIndex + ']' + ' Quote:\n', quote);
+                resultJSON[dataIndex] = quote;
+                console.log('[' + dataIndex + ']' + ' Quote:\n', quote);
             });
         }
     }
-    console.log(quotesJSON);
-    return quotesJSON;
+    console.log(resultJSON);
+    return resultJSON;
 }
 
-export default getQuoteCategories;
+export default getQuotes;
