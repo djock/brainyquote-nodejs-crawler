@@ -1,11 +1,7 @@
 import axios from './utils/aaxios.js';
 import cheerio from 'cheerio';
 
-function getNextPage(url, index) {
-
-}
-
-async function getQuoteCategories() {
+async function getData() {
     const resBrainyQuote = await axios.get('http://www.brainyquote.com/').catch(resBrainyQuote => {
         throw resBrainyQuote;
     });

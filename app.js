@@ -1,24 +1,26 @@
-import fs from 'fs'
-import getQuoteCategories from './src/getQuoteCategories'
-import minify from 'node-json-minify'
+import fs from 'fs';
+import getData from './src/getData';
+import minify from 'node-json-minify';
+
+let finalJSON = `./data/data.json`;
 
 (async() => {
-    const allQuotes = await getQuoteCategories()
+    const allData = await getData();
 
 	var tempObj = [];
-	var quotesJSON = {};
-	var seenNames = {};
+	var resultJSON = {};
+	var existingData = {};
 	
-	tempObj = Object.keys(allQuotes).filter(function(currentObject) {
-	    if (allQuotes[currentObject].quote in seenNames) {
+	tempObj = Object.keys(allData).filter(function(currentObject) {
+	    if (allData[currentObject].text in existingData) {
 	        return false;
 	    } else {
-	        seenNames[allQuotes[currentObject].quote] = true;
-	        quotesJSON[currentObject] = allQuotes[currentObject];
+	        existingData[allData[currentObject].text] = true;
+	        resultJSON[currentObject] = allData[currentObject];
 	        return true;
 	    }
 	});
 
-    fs.writeFileSync(`./data/Quotes.json`, minify(JSON.stringify(quotesJSON, null, 2)), 'utf8')
-    console.log('\n>> Quotes Categories Retrieved!\n');
+    fs.writeFileSync(finalJSON, minify(JSON.stringify(resultJSON, null, 2)), 'utf8');
+    console.log('\n>> Data Retrieved!\n');
 })()
