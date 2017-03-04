@@ -1,7 +1,7 @@
 {
-    "name": "brainyquote-crawler",
+    "name": "nodejs-crawler",
     "version": "1.0.0",
-    "description": "Web crawler for brainyquote.com",
+    "description": "NodeJS web crawler for brainyquote.com and factslides.com",
     "main": "app.js",
     "scripts": {
         "start": "babel-node app.js",

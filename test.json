@@ -1,0 +1,2564 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><script data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.evt={};__ez.ck={};__ez.template={};__ez.evt.add=function(el,evt,handler){if(el.addEventListener){el.addEventListener(evt,handler,false)}else if(el.attachEvent){el.attachEvent('on'+evt,handler)}else{el['on'+evt]=handler()}};__ez.ck.get=function(cname,did){if(did!=null)cname=cname+"_"+did;var name=cname+"=";var decodedCookie=decodeURIComponent(document.cookie);var ca=decodedCookie.split(';');for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' '){c=c.substring(1)}if(c.indexOf(name)==0){return c.substring(name.length,c.length)}}return""};var EzoicPixel=function(){this.pixels=[];this.util=new EzoicPixelUtil();this.pixelUrl="/ezoic/e.gif";if((typeof ezJsu!=="undefined"&&ezJsu===true)||(typeof _ez_sa!=="undefined"&&_ez_sa===true)||((typeof window.isAmp!='undefined')&&isAmp===true)){this.pixelUrl="//g.ezoic.net"+this.pixelUrl}this.tEpoch=0;if(typeof _ezaq!=="undefined"&&_ezaq.hasOwnProperty("t_epoch")){this.tEpoch=_ezaq.t_epoch}};var EzoicPixelData=function(name,val){this.name=name;this.val=val};var EzoicPixelUtil=function(){};EzoicPixel.prototype={constructor:EzoicPixel,AddAndFireImpPixel:function(adSlot,pixelData){this.AddImpPixel(adSlot,pixelData,0,0,0,0,0);this.FirePixels()},AddAndFirePVPixel:function(pvId,pixelData){this.AddPVPixel(pvId,pixelData);this.FirePixels()},AddImpPixel:function(adSlot,pixelData,revenue,est_revenue,bid_floor_filled,bid_floor_prev,stat_source_id){if(!this.isDefined(adSlot,adSlot.getSlotElementId)){return}var ad_position_id=parseInt(adSlot.getTargeting('ap')[0]);var ad_size_array=adSlot.getSizes()[0];var ad_size=ad_size_array.l.toString()+"x"+ad_size_array.j.toString();var domainId="0";var countryCode="XX";if(typeof _ezaq!=="undefined"&&_ezaq.hasOwnProperty("domain_id")){domainId=_ezaq.domain_id.toString()}if(typeof _ezaq!=="undefined"&&_ezaq.hasOwnProperty("country")){countryCode=_ezaq.country}var impId=this.util.getSlotIID(adSlot),adUnit=adSlot.getSlotElementId();if(this.isDefined(impId,adUnit)&&this.validateData(pixelData)){pixelData=this.util.convertDataToStr(pixelData);this.pixels.push({type:"impression",impression_id:impId,domain_id:domainId,unit:adUnit,t_epoch:this.tEpoch,revenue:revenue,est_revenue:est_revenue,ad_position:ad_position_id,ad_size:ad_size,bid_floor_filled:bid_floor_filled,bid_floor_prev:bid_floor_prev,stat_source_id:stat_source_id,country_code:countryCode,data:pixelData})}},AddImpPixelById:function(impId,pixelData){var domainId="0";if(typeof _ezaq!=="undefined"&&_ezaq.hasOwnProperty("domain_id")){domainId=_ezaq.domain_id.toString()}var vals=impId.split('/');if(this.isDefined(impId)&&vals.length===3&&this.validateData(pixelData)){var adUnit=vals[0];pixelData=this.util.convertDataToStr(pixelData);this.pixels.push({type:"impression",impression_id:impId,domain_id:domainId,unit:adUnit,t_epoch:this.tEpoch,data:pixelData})}},AddPVPixel:function(pvId,pixelData){var domainId="0";if(typeof _ezaq!=="undefined"&&_ezaq.hasOwnProperty("domain_id")){domainId=_ezaq.domain_id.toString()}if(this.isDefined(pvId)&&this.validateData(pixelData)){pixelData=this.util.convertDataToStr(pixelData);this.pixels.push({type:"pageview",pageview_id:pvId,domain_id:domainId,t_epoch:this.tEpoch,data:pixelData})}},FirePixels:function(){if(typeof document.visibilityState!='undefined'&&document.visibilityState=="prerender"){return}if(this.isDefined(this.pixels)&&this.pixels.length>0){(new Image()).src=this.pixelUrl+"?pixels="+encodeURIComponent(JSON.stringify(this.pixels))}this.pixels=[]},NewData:function(name,val){return new EzoicPixelData(name,val)},isDefined:function(){for(var i=0;i<arguments.length;i++){if(typeof arguments[i]==='undefined'||arguments[i]===null){console.error("Argument not defined. ",arguments);return false}}return true},validateData:function(pixelData){for(var i=0;i<pixelData.length;i++){if(pixelData[i]instanceof EzoicPixelData===false){console.error("Invalid pixelData. ",pixelData[i]);return false}}return true}};EzoicPixelUtil.prototype={constructor:EzoicPixelUtil,convertDataToStr:function(pixelData){if(typeof pixelData==="undefined"){return[]}try{for(var i in pixelData){pixelData[i].val=pixelData[i].val+''}}catch(e){}return pixelData},getSlotIID:function(slot){var iid=0;try{var map=slot.getTargetingMap(),dvid=slot.getSlotElementId();if(dvid.indexOf("div-gpt-ad")===-1){return iid}if(typeof map!=="undefined"){for(var key in map){if(key.indexOf('iid')!==-1&&typeof map[key][0]!=="undefined"){iid=map[key][0];break}}}}catch(e){}return iid}};__ez.template.isOrig=false;</script>
+	<title>Random Facts ← FACTSlides → Amazing FACTS you didn't know!</title>
+	<meta name="description" 	content="Random Facts. Updated daily. FACTSlides is an endless stream of amazing facts presented as colorful and animated slides. All facts are well verified and sourced (see the bottom, leftmost part of the screen), and illustrations are used with permission from their authors (you can buy them as art prints following the link provided at the bottom, leftmost part of the screen).">
+
+	<meta property="og:title"	content="← FACTSlides → Amazing FACTS you didn't know!" />
+	<meta property="og:type" 	content="article" />
+	<meta property="og:description"	content="An endless stream of amazing facts presented as colorful and animated slides." />
+	<meta property="og:url" 	content="http://www.FACTSlides.com/" />
+	<meta name="viewport" 		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta property="og:image" 	content="http://www.FACTSlides.com/imgs/ishots/8735.png" />
+
+	<meta name="twitter:card" 	 content="summary_large_image">
+	<meta name="twitter:site" 	 content="@FACTSlides">
+	<meta name="twitter:creator"  	 content="@FACTSlides">
+	<meta name="twitter:title"	 content="← FACTSlides → Amazing FACTS you didn't know!">
+	<meta name="twitter:description" content="An endless stream of amazing facts presented as colorful and animated slides.">
+	<meta name="twitter:image"	 content="http://www.FACTSlides.com/imgs/ishots/8735.png">
+
+	
+
+	<!-- CSS, RSS, CANONICAL, ICON -->
+	<link rel="canonical"		href="http://www.FACTSlides.com/" />
+	<link rel="shortcut icon"	href="/imgs/favicon.png" />
+	<link rel="stylesheet"		href="/css/fs22.css"	type="text/css"  />
+	<style>
+			
+	</style>
+	<!--[if IE]>
+	<style>
+		H1 { display: inline; }
+	</style>
+	<![endif]-->
+
+	<!-- JS -->
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		// ---- var declarations ---- 
+
+		// items arrays
+		var itemsID	= new Array(0,8735,8734,8733,8732,8731,8730,8729,8728,8727,8726);
+		var itemsSource	= new Array('','https://www.sciencedaily.com/releases/1999/06/990625080416.htm','http://mentalfloss.com/article/73511/9-things-you-didnt-know-were-paid-lottery','https://en.wikipedia.org/wiki/Naked_mole-rat#Description','https://en.wikipedia.org/wiki/Louis_X_of_France','http://www.independent.co.uk/arts-entertainment/books/features/bite-size-books-abridged-too-far-2269973.html','http://www.rollingstone.com/music/features/beatles-revolver-15-things-you-didnt-know-w432446','http://blog.sfgate.com/ontheblock/2014/06/09/how-much-is-a-parking-spot-worth-in-s-f/','https://www.nytimes.com/2017/02/28/business/economy/denmark-jobs-full-employment.html?_r=0','http://www.livescience.com/58054-wolf-spiders-have-threesomes-to-avoid-getting-eaten-video.html','http://www.huffingtonpost.com/entry/marijuana-deaths-2014_us_56816417e4b06fa68880a217');
+		var itemsBiblio = new Array('','','','','','','','','','','');
+		var itemsIllus 	= new Array('','','','','http://www.colourlovers.com/pattern/3403531/Royal_Drawing_Room','','','','','','');
+		var itemsHTML  	= new Array('',' The <span> iron</span> in our <span> blood</span> and the <span> calcium</span> in our <span> bones</span> come from ancient <span> explosions</span> of giant <span> stars.</span> ',' Around 200 BCE, the Western Han Dynasty <span> used a lottery to pay for</span> repairs to and expansion of the <span> Great Wall.</span> ',' A <span> naked mole rat\'s</span> four front teeth are located outside its mouth, and their lips are sealed just behind the teeth, preventing soil from filling its mouth while he is digging. ','<span>Louis X</span> of France <span>died</span> after a particularly <span>exhausting game of tennis</span>. He drank a large quantity of cooled wine and subsequently died of either pneumonia or pleurisy. ',' When Albert <span>Einstein</span> published his Theory of General Relativity, the <span>New York Times</span> sent their <span>golfing correspondent</span> to interview him. ','<span>The Beatles album, "Revolver",</span> was <span> almost named "After Geography"</span> (credits to Ringo), to contrast with the Rolling Stones album, "Aftermath." ','<span> Parking in San Francisco</span> is so <span> scarce</span> that the <span> parking spot</span> attached to your property can add up to <span> $100,000</span> to the <span> property\'s value.</span> ',' The <span> unemployment rate</span> in <span> Denmark</span> is currently so <span> low (4.3%)</span> that Danish companies are desperate to find skilled laborers to hire. ','<span> Male wolf spiders</span> will engage in <span> threesomes</span> during mating season to increase their chances of <span> escaping cannibalism.</span> ',' There has <span> never</span> been reported <span> death</span> linked to <span> overdosing on marijuana.</span> ');
+
+		// current page / slide vars
+		var pageType	= 'RandomFacts';
+		var slideID	 = "";
+		var pageURL	 = "";
+		var pageOGTitle	 = "← FACTSlides → Amazing FACTS you didn't know!";
+		var pageN	 = 1;
+		var pageSize	 = 10;
+		var homeURL 	 = "http://www.FACTSlides.com/"
+		var nextSlideURL = "";
+		var maxSlidesPerPage = 15;
+	</script>
+	<script type="text/javascript" src="/js/fs.08.js"></script>
+
+	<!-- Ezoic Ad Testing Code-->
+	
+	<!-- Ezoic Ad Testing Code-->
+
+
+
+<script data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-80918676-39";</script>
+<script data-cfasync="false" type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['e._setAccount', 'UA-80918676-39']);
+_gaq.push(['f._setAccount', 'UA-38339005-1']);
+_gaq.push(['e._setDomainName', 'factslides.com']);
+_gaq.push(['f._setDomainName', 'factslides.com']);
+_gaq.push(['e._setCustomVar',1,'template','old_site_noads',3]);
+_gaq.push(['e._setCustomVar',2,'t','120',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod6',3]);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','old_site_noads',3]);
+_gaq.push(['f._setCustomVar',2,'domain','factslides.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">var ezouid = "512812717";</script><base href="http://www.factslides.com/"><script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script type='text/javascript'>
+var soc_app_id = '0';
+var did = 34392;
+var ezdomain = 'factslides.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script type="text/javascript" data-cfasync="false">var _ezaq = {"ab_test_id":"mod6","ab_test_val":"","adgroup_rank_id":-1,"browser":"Unknown","browser_version":0,"country":"RO","device_height":528,"device_width":1280,"domain_id":34392,"engaged_time_visit":0,"forensiq_score":-1,"form_factor_id":1,"ip":"5.12.230.46","landing_page_url":"http://www.factslides.com/","os":"Unknown","page_ad_positions":"","page_view_id":"fa24d987-3974-48e1-6d0e-94cd7b1beb36","pv_event_count":0,"referrer_id":0,"region":"eu-west-1","serverid":"34.249.19.106:20111","t_epoch":1488647240,"template_id":120,"time_on_site_visit":0,"url":"http://www.factslides.com/","user_agent":"axios/0.15.3","user_id":512812717,"visit_id":741848158,"visit_uuid":"cd9b1902-7b85-48d9-5365-3e042fb2c3f2"};var _ezExtraQueries = "&ez_orig=1";</script><script data-cfasync='false' type="text/javascript" src="/ezoic/impt.js?cb=150-0&v=10" async></script></head>
+<body onkeydown="pKeyDown(event)" bgcolor="#000000" marginheight="0" marginwidth="0" topMargin="0" leftMargin="0" rightMargin="0">
+
+<a name="top"></a>
+
+
+<!-- Init -->
+<script language="javascript">
+
+	pInit()
+
+</script>
+
+
+
+
+
+
+<!-- Header -->
+<div id="header">
+
+	<!-- Logo -->
+	<div id="logo" >
+		<div onclick="logo_toggle()" onmouseover="if (UTIL_browserIsMobile()==false) { logo_showMenu() }" onmouseout="if (UTIL_browserIsMobile()==false) { logo_hideMenu() }">
+			<img id="logo_image" src="/imgs/logoX.png" title="FACTSlides is an endless stream of amazing facts presented as colorful and animated slides. All facts are well verified and sourced." alt="FACTSlides is an endless stream of amazing facts presented as colorful and animated slides. All facts are well verified and sourced." border="0"  />
+		</div>
+
+		<div id="logo_menu" onmouseover="logo_showMenu()" onmouseout="logo_hideMenu()">
+			<img id="logo_menu_up" src="/imgs/menuup.png" />
+			<div onclick="location='/'"><a href="/">Home</a></div>
+			<div onclick="about('about us')">About Us</div>
+			<div onclick="about('faq')">Questions? FAQ</div>
+			<div onclick="about('privacy')">Privacy Policy</div>
+			<div onclick="about('contact')">Contact Us</div>
+		</div>
+	</div>
+
+	<!-- Theme -->
+	<div id="theme" >
+
+		
+			
+			<h1 itemprop="name">
+				<div>Random Facts</div>
+			</h1>
+
+		
+	</div>
+
+	<!-- categories -->
+	<div id="categories" onclick="categories_toggle()" onmouseover="if (UTIL_browserIsMobile()==false) { categories_show() }" onmouseout="if (UTIL_browserIsMobile()==false) { categories_hide() }">
+		<div>
+			CATEGORIES
+			<img id="categoriesDown1" src="/imgs/categoriesDown.png" />
+		</div>
+	</div>
+
+	<!-- users bar for registered and unregistered users -->
+	<div id="user">
+
+		<div id="user_visitor">
+			<span onclick="login_show()" id="user_visitor_login">LOG IN</span>
+			<span onclick="register_show()" id="user_visitor_signup">SIGN UP</span>
+			<!--<img onclick="slideSettings_show()" src="imgs/settings.png" title="Settings" alt="Settings" />-->
+		</div>
+		<div id="user_registered" onclick="user_registered_toggle()" onmouseover="if (UTIL_browserIsMobile()==false) { user_registered_showMenu() }" onmouseout="if (UTIL_browserIsMobile()==false) { user_registered_hideMenu() }">
+			<div>
+				<span>Hello, </span><span>what's your name?</span>
+			</div>
+		</div>
+		<div id="user_registered_menu" onmouseover="user_registered_showMenu()" onmouseout="user_registered_hideMenu()">
+			<img id="user_registered_menu_up" src="/imgs/menuup.png" />
+			<div onclick="profile_show()">My Profile</div>
+			<div onclick="interests_show()">My Interests</div>
+			<div onclick="location='/u-fav'">My Favs</div>
+			<div onclick="slideSettings_show()">Slides Settings</div>
+			<div onclick="changePass_show()">Change Password</div>
+			<div onclick="logout()">Logout</div>
+		</div>
+
+	</div>
+
+
+
+</div>	
+
+
+
+
+<!-- schema init -->
+<div id="itemsContainer" itemscope itemtype="http://schema.org/Article">
+
+	<meta itemprop="headline" 	content="← FACTSlides → Amazing FACTS you didn't know!" />
+	<meta itemprop="image" 		content="http://www.FACTSlides.com/imgs/ishots/8735.png" />
+	<meta itemprop="author" 	content="Luke Reiner" />
+	<meta itemprop="publisher" 	content="FACTSlides.com" />
+	<meta itemprop="datePublished" 	content="0001-01-01" />
+
+	
+
+
+
+<!-- Items -->
+<div id="items" itemprop="articleBody">
+
+	<ol itemscope itemtype="http://schema.org/ItemList">
+	
+		<div id='i1' class='i' style='background-image:url("/imgs/space.gif"); '>
+<div id='i1t1' animation='flipInX' style='width:100%; height:100%; font-size:130%; text-shadow:0.03em 0.03em 0.06em black; ;  line-height: 100%; '> 
+<div style='width:80%; text-align:center; position:relative; left:10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> The <span style='color:gold; font-size:; line-height:110%; '> iron</span> in our <span style='color:gold; font-size:; line-height:110%; '> <a href='/s-Blood'>blood</a></span> and the <span style='color:gold; font-size:; line-height:110%; '> calcium</span> in our <span style='color:gold; font-size:; line-height:110%; '> bones</span> come from ancient <span style='color:gold; font-size:; line-height:110%; '> explosions</span> of giant <span style='color:gold; font-size:; line-height:110%; '> stars.</span><div class='factTools'></div></li></div></div>
+</div>
+</div>
+<div id='i2' class='i' style='background-image:url("/imgs/lottery.jpg"); background-size:auto 25%; background-position:0% 0%; '>
+<div style='width:100%; height:25%; '></div>
+<div id='i2t1' animation='slideInLeft' style='width:100%; height:50%; font-size:105%;  text-shadow:0.03em 0.03em 0.03em #886706;  text-align:center; line-height: 100%; background-color:#ffbf00; color:#ffffff; '>
+<div style='width:80%; text-align:center; position: relative; left: 10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> Around 200 BCE, the Western Han Dynasty <span style='color:#b40839; font-size:; line-height:110%; '> used a lottery to pay for</span> repairs to and expansion of the <span style='color:#b40839; font-size:; line-height:110%; '> Great Wall.</span><div class='factTools'></div></li></div></div></div>
+</div>
+<div id='i3' class='i' style='background-image:url("/imgs/naked-mole-rat.jpg"); background-size:100%; background-position:50% 50%; '>
+<div id='i3t1' animation='rollIn' style='width:100%; height:100%; font-size:115%; text-shadow:0.03em 0.03em 0.06em black; ;  line-height: 100%; '> 
+<div style='width:80%; text-align:center; position:relative; left:10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> A <span style='color:gold; font-size:; line-height:110%; '> naked mole rat's</span> four front teeth are located outside its mouth, and their lips are sealed just behind the teeth, preventing soil from filling its mouth while he is digging. <div class='factTools'></div></li></div></div>
+</div>
+</div>
+<div id='i4' class='i' style='background-image:url("/imgs/royal2.png"); background-size:auto 20%; '>
+<div style='float:left; width:18%; height:100%; '></div>
+<div style='float:left; width:0.5%; height:100%; background-color:#F1B22B; '></div>
+<div style='float:left; width:2%; height:100%; background-color:#2A064B; '></div>
+<div id='i4t1' animation='flash' style='float:left; width:59%; height:100%; font-size:109%;  text-align:center; line-height:110%; background-color:#2A064B; '>
+<div style='position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%);'><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><span style='color:#F1B22B; font-size:; line-height:110%; '>Louis X</span> of <a href='/s-France'>France</a> <span style='color:#F1B22B; font-size:; line-height:110%; '>died</span> after a particularly <span style='color:#F1B22B; font-size:; line-height:110%; '>exhausting game of tennis</span>. He drank a large quantity of cooled wine and subsequently died of either pneumonia or pleurisy.<div class='factTools'></div></li></div></div></div>
+<div style='float:left; width:2%; height:100%; background-color:#2A064B; '></div>
+<div style='float:left; width:0.5%; height:100%; background-color:#F1B22B; '></div>
+<div style='float:left; width:18%; height:100%; '></div>
+</div>
+<div id='i5' class='i' style='background-color:#000000; background-image:url("/imgs/golf.jpg"); background-repeat:repeat; background-size:100%; background-position:0% 0%; '>
+<div id='i5t1' animation='rollIn' style='width:100%; height:100%; font-size:120%; text-shadow:0.03em 0.03em 0.06em black; ;  line-height: 100%; '> 
+<div style='width:80%; text-align:center; position:relative; left:10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> When Albert <span style='color:gold; font-size:; line-height:110%; '><a href='/s-Einstein'>Einstein</a></span> published his Theory of General Relativity, the <span style='color:gold; font-size:; line-height:110%; '><a href='/s-New-York'>New York</a> Times</span> sent their <span style='color:gold; font-size:; line-height:110%; '>golfing correspondent</span> to interview him.<div class='factTools'></div></li></div></div>
+</div>
+</div>
+<div id='i6' class='i' style='background-color:white; background-image:url("/imgs/the-beatles.jpg"); background-repeat:no-repeat; background-size:auto 100%; background-position:bottom right; '>
+<div style='float:left; width:10%; height:100%; '></div>
+<div id='i6t1' animation='flash' style='float:left; width:50%; height:100%; font-size:110%;  text-align:right; line-height:110%; color:#5e7474; '>
+<div style='position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%);'><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><span style='color:#000000; font-size:; line-height:110%; '>The Beatles album, "Revolver",</span> was <span style='color:#000000; font-size:; line-height:110%; '> almost named "After Geography"</span> (credits to Ringo), to contrast with the Rolling Stones album, "After<a href='/s-Math'>math</a>."<div class='factTools'></div></li></div></div></div>
+</div>
+<div id='i7' class='i' style='background-color:#450F1A; '>
+<div style='float:left; width:11%; height:100%; '></div>
+<div animation='' style='float:left; width:23%; height:100%; background-color:#A8264D; '>
+<img src='/imgs/parking-space.jpg' style='width:100%; height:auto;  position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); ' /></div>
+<div style='float:left; width:4%; height:100%; '></div>
+<div id='i7t1' animation='bounceInRight' style='float:left; width:50%; height:100%; font-size:110%;  text-align:left; line-height:110%; '>
+<div style='position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%);'><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><span style='color:#FF9EA2; font-size:; line-height:110%; '> Parking in San Francisco</span> is so <span style='color:#FF9EA2; font-size:; line-height:110%; '> scarce</span> that the <span style='color:#FF9EA2; font-size:; line-height:110%; '> parking spot</span> attached to your property can add up to <span style='color:#FF9EA2; font-size:; line-height:110%; '> $100,000</span> to the <span style='color:#FF9EA2; font-size:; line-height:110%; '> property's value.</span><div class='factTools'></div></li></div></div></div>
+</div>
+<div id='i8' class='i' style='background-color:#ffffff; '>
+<div id='i8' animation='' style='width:100%; height:40%; text-align:center; background-color:#ffffff; '>
+<img src='/imgs/hiring.jpg' style='width:auto; height:100%;  position: relative; left:; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); ' /></div>
+<div id='i8t1' animation='bounceInLeft' style='width:100%; height:60%; font-size:110%;   text-align:center; line-height: 100%; color:#d5696b; '>
+<div style='width:80%; text-align:center; position: relative; left: 10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> The <span style='color:#dd1619; font-size:; line-height:110%; '> unemploy<a href='/s-Men'>men</a>t rate</span> in <span style='color:#dd1619; font-size:; line-height:110%; '> <a href='/s-Denmark'>Denmark</a></span> is currently so <span style='color:#dd1619; font-size:; line-height:110%; '> low (4.3%)</span> that Danish companies are desperate to find skilled laborers to hire.<div class='factTools'></div></li></div></div></div>
+</div>
+<div id='i9' class='i' style='background-color:#3E2E21; '>
+<div style='float:left; width:10%; height:100%; background-color:#ffffff; '></div>
+<div animation='' style='float:left; width:27%; height:100%; background-color:#ffffff; '>
+<img src='/imgs/wolf-spider.jpg' style='width:100%; height:auto;  position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); ' /></div>
+<div style='float:left; width:1%; height:100%; background-color:#ffffff; '></div>
+<div style='float:left; width:5%; height:100%; '></div>
+<div id='i9t1' animation='bounceInRight' style='float:left; width:47%; height:100%; font-size:110%;  text-align:left; line-height:110%; '>
+<div style='position: relative; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%);'><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><span style='color:#F1C83C; font-size:; line-height:110%; '> Male wolf <a href='/s-Spider'>spider</a>s</span> will engage in <span style='color:#F1C83C; font-size:; line-height:110%; '> threesomes</span> during mating season to increase their chances of <span style='color:#F1C83C; font-size:; line-height:110%; '> escaping cannibalism.</span><div class='factTools'></div></li></div></div></div>
+</div>
+<div id='i10' class='i' style='background-color:#f2f1f0; background-image:url("/imgs/Marijuana-Back.jpg"); background-size:auto 30%; '>
+<div style='width:100%; height:25%; '></div>
+<div id='i10t1' animation='bounceInLeft' style='width:100%; height:50%; font-size:120%;  text-shadow:0.03em 0.03em 0.03em #000000;  text-align:center; line-height: 100%; background-color:#7fba27; color:#ffffff; '>
+<div style='width:80%; text-align:center; position: relative; left: 10%; top: 50%; transform: perspective(1px) translateY(-50%); -webkit-transform: perspective(1px) translateY(-50%); -ms-transform: perspective(1px) translateY(-50%); '><div><li itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'> There has <span style='color:gold; font-size:; line-height:110%; '> never</span> been reported <span style='color:gold; font-size:; line-height:110%; '> <a href='/s-Death'>death</a></span> linked to <span style='color:gold; font-size:; line-height:110%; '> overdosing on <a href='/s-Marijuana'>marijuana</a>.</span><div class='factTools'></div></li></div></div></div>
+</div>
+	
+
+	</ol>
+
+
+	<!--- The End --->
+
+	<div id="fe" class="i">
+
+		
+			<div id='taboola-endslate' style='margin-top:1em; font-size:10%;'></div>
+		
+	</div>
+
+
+
+<!-- items end -->
+</div>
+
+<!-- schema end -->
+</div>
+
+<div id="hiddenLandscapeItems" style="display:none"></div>
+<div id="factToolsPortrait" class="factTools" style="display:none"></div>
+
+ 
+
+
+
+
+<!-- Slideshows -->
+<div id="slideshows_menu">
+
+	<div id="slideshows_menu_left">
+	  
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Animal-Testing" onclick="GAevent('Menu', 'click', 'Animal-Testing', null)">
+				Animal Testing Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Saturn" onclick="GAevent('Menu', 'click', 'Saturn', null)">
+				Saturn Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bullying" onclick="GAevent('Menu', 'click', 'Bullying', null)">
+				Bullying Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Fidel-Castro" onclick="GAevent('Menu', 'click', 'Fidel-Castro', null)">
+				Fidel Castro Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Colombia" onclick="GAevent('Menu', 'click', 'Colombia', null)">
+				Colombia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Vietnam-War" onclick="GAevent('Menu', 'click', 'Vietnam-War', null)">
+				Vietnam War Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_47 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Sustainable-Development" onclick="GAevent('Menu', 'click', 'Sustainable-Development', null)">
+				Sustainable Development Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Hawaii" onclick="GAevent('Menu', 'click', 'Hawaii', null)">
+				Hawaii Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Switzerland" onclick="GAevent('Menu', 'click', 'Switzerland', null)">
+				Switzerland Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_19 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Las-Vegas" onclick="GAevent('Menu', 'click', 'Las-Vegas', null)">
+				Las Vegas Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_41 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Lightning" onclick="GAevent('Menu', 'click', 'Lightning', null)">
+				Lightning Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_45 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Shakespeare" onclick="GAevent('Menu', 'click', 'Shakespeare', null)">
+				Shakespeare Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Indonesia" onclick="GAevent('Menu', 'click', 'Indonesia', null)">
+				Indonesia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_33 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Disney" onclick="GAevent('Menu', 'click', 'Disney', null)">
+				Disney Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Denmark" onclick="GAevent('Menu', 'click', 'Denmark', null)">
+				Denmark Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Ancient-Greece" onclick="GAevent('Menu', 'click', 'Ancient-Greece', null)">
+				Ancient Greece Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Buddhism" onclick="GAevent('Menu', 'click', 'Buddhism', null)">
+				Buddhism Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_14 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-South-Africa" onclick="GAevent('Menu', 'click', 'South-Africa', null)">
+				South Africa Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Asia" onclick="GAevent('Menu', 'click', 'Asia', null)">
+				Asia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Depression" onclick="GAevent('Menu', 'click', 'Depression', null)">
+				Depression Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Alaska" onclick="GAevent('Menu', 'click', 'Alaska', null)">
+				Alaska Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Florida" onclick="GAevent('Menu', 'click', 'Florida', null)">
+				Florida Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Big-Ben" onclick="GAevent('Menu', 'click', 'Big-Ben', null)">
+				Big Ben Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Hinduism" onclick="GAevent('Menu', 'click', 'Hinduism', null)">
+				Hinduism Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Lion" onclick="GAevent('Menu', 'click', 'Lion', null)">
+				Lion Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-D-Day" onclick="GAevent('Menu', 'click', 'D-Day', null)">
+				D-Day Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Autism" onclick="GAevent('Menu', 'click', 'Autism', null)">
+				Autism Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Berlin-Wall" onclick="GAevent('Menu', 'click', 'Berlin-Wall', null)">
+				Berlin Wall Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Zebra" onclick="GAevent('Menu', 'click', 'Zebra', null)">
+				Zebra Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Venus" onclick="GAevent('Menu', 'click', 'Venus', null)">
+				Venus Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Pluto" onclick="GAevent('Menu', 'click', 'Pluto', null)">
+				Pluto Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Solar-System" onclick="GAevent('Menu', 'click', 'Solar-System', null)">
+				Solar System Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Isaac-Newton" onclick="GAevent('Menu', 'click', 'Isaac-Newton', null)">
+				Isaac Newton Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Breast-Cancer" onclick="GAevent('Menu', 'click', 'Breast-Cancer', null)">
+				Breast Cancer Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Barack-Obama" onclick="GAevent('Menu', 'click', 'Barack-Obama', null)">
+				Barack Obama Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Christopher-Columbus" onclick="GAevent('Menu', 'click', 'Christopher-Columbus', null)">
+				Christopher Columbus Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-YouTube" onclick="GAevent('Menu', 'click', 'YouTube', null)">
+				YouTube Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Ireland" onclick="GAevent('Menu', 'click', 'Ireland', null)">
+				Ireland Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Tiger" onclick="GAevent('Menu', 'click', 'Tiger', null)">
+				Tiger Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Koala" onclick="GAevent('Menu', 'click', 'Koala', null)">
+				Koala Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Drug" onclick="GAevent('Menu', 'click', 'Drug', null)">
+				Drug Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Amazon-Rainforest" onclick="GAevent('Menu', 'click', 'Amazon-Rainforest', null)">
+				Amazon Rainforest Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Dolphin" onclick="GAevent('Menu', 'click', 'Dolphin', null)">
+				Dolphin Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Benjamin-Franklin" onclick="GAevent('Menu', 'click', 'Benjamin-Franklin', null)">
+				Benjamin Franklin Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Christmas" onclick="GAevent('Menu', 'click', 'Christmas', null)">
+				Christmas Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-George-Washington" onclick="GAevent('Menu', 'click', 'George-Washington', null)">
+				George Washington Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Golden-Gate-Bridge" onclick="GAevent('Menu', 'click', 'Golden-Gate-Bridge', null)">
+				Golden Gate Bridge Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Venezuela" onclick="GAevent('Menu', 'click', 'Venezuela', null)">
+				Venezuela Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Monkey" onclick="GAevent('Menu', 'click', 'Monkey', null)">
+				Monkey Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_41 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Earthquake" onclick="GAevent('Menu', 'click', 'Earthquake', null)">
+				Earthquake Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Octopus" onclick="GAevent('Menu', 'click', 'Octopus', null)">
+				Octopus Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Auschwitz" onclick="GAevent('Menu', 'click', 'Auschwitz', null)">
+				Auschwitz Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Penguin" onclick="GAevent('Menu', 'click', 'Penguin', null)">
+				Penguin Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Alexander-The-Great" onclick="GAevent('Menu', 'click', 'Alexander-The-Great', null)">
+				Alexander The Great Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-JFK" onclick="GAevent('Menu', 'click', 'JFK', null)">
+				JFK Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_33 slideshows_menu_45 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Harry-Potter" onclick="GAevent('Menu', 'click', 'Harry-Potter', null)">
+				Harry Potter Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Volcano" onclick="GAevent('Menu', 'click', 'Volcano', null)">
+				Volcano Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bolivia" onclick="GAevent('Menu', 'click', 'Bolivia', null)">
+				Bolivia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Dinosaur" onclick="GAevent('Menu', 'click', 'Dinosaur', null)">
+				Dinosaur Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Spider" onclick="GAevent('Menu', 'click', 'Spider', null)">
+				Spider Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_36 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Strange" onclick="GAevent('Menu', 'click', 'Strange', null)">
+				Strange Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Martin-Luther-King-Jr" onclick="GAevent('Menu', 'click', 'Martin-Luther-King-Jr', null)">
+				Martin Luther King Jr Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Anne-Frank" onclick="GAevent('Menu', 'click', 'Anne-Frank', null)">
+				Anne Frank Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cockroach" onclick="GAevent('Menu', 'click', 'Cockroach', null)">
+				Cockroach Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Desert" onclick="GAevent('Menu', 'click', 'Desert', null)">
+				Desert Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-9-11" onclick="GAevent('Menu', 'click', '9-11', null)">
+				9/11 Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Texas" onclick="GAevent('Menu', 'click', 'Texas', null)">
+				Texas Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_36 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Unbelievable" onclick="GAevent('Menu', 'click', 'Unbelievable', null)">
+				Unbelievable Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Civil-War" onclick="GAevent('Menu', 'click', 'Civil-War', null)">
+				Civil War Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Uranus" onclick="GAevent('Menu', 'click', 'Uranus', null)">
+				Uranus Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_36 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Weird" onclick="GAevent('Menu', 'click', 'Weird', null)">
+				Weird Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_42 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Global-Warming" onclick="GAevent('Menu', 'click', 'Global-Warming', null)">
+				Global Warming Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Snake" onclick="GAevent('Menu', 'click', 'Snake', null)">
+				Snake Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-California" onclick="GAevent('Menu', 'click', 'California', null)">
+				California Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 slideshows_menu_32 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Elvis-Presley" onclick="GAevent('Menu', 'click', 'Elvis-Presley', null)">
+				Elvis Presley Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Nelson-Mandela" onclick="GAevent('Menu', 'click', 'Nelson-Mandela', null)">
+				Nelson Mandela Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Horse" onclick="GAevent('Menu', 'click', 'Horse', null)">
+				Horse Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Abortion" onclick="GAevent('Menu', 'click', 'Abortion', null)">
+				Abortion Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Ocean" onclick="GAevent('Menu', 'click', 'Ocean', null)">
+				Ocean Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Islam" onclick="GAevent('Menu', 'click', 'Islam', null)">
+				Islam Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Giraffe" onclick="GAevent('Menu', 'click', 'Giraffe', null)">
+				Giraffe Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Mount-Everest" onclick="GAevent('Menu', 'click', 'Mount-Everest', null)">
+				Mount Everest Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Statue-of-Liberty" onclick="GAevent('Menu', 'click', 'Statue-of-Liberty', null)">
+				Statue of Liberty Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Finland" onclick="GAevent('Menu', 'click', 'Finland', null)">
+				Finland Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_19 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-London" onclick="GAevent('Menu', 'click', 'London', null)">
+				London Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_42 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Recycling" onclick="GAevent('Menu', 'click', 'Recycling', null)">
+				Recycling Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Leonardo-Da-Vinci" onclick="GAevent('Menu', 'click', 'Leonardo-Da-Vinci', null)">
+				Leonardo Da Vinci Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Whale" onclick="GAevent('Menu', 'click', 'Whale', null)">
+				Whale Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cocaine" onclick="GAevent('Menu', 'click', 'Cocaine', null)">
+				Cocaine Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Israel" onclick="GAevent('Menu', 'click', 'Israel', null)">
+				Israel Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Steve-Jobs" onclick="GAevent('Menu', 'click', 'Steve-Jobs', null)">
+				Steve Jobs Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_16 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-New-Zealand" onclick="GAevent('Menu', 'click', 'New-Zealand', null)">
+				New Zealand Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Twitter" onclick="GAevent('Menu', 'click', 'Twitter', null)">
+				Twitter Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Baby" onclick="GAevent('Menu', 'click', 'Baby', null)">
+				Baby Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-History" onclick="GAevent('Menu', 'click', 'History', null)">
+				History Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Argentina" onclick="GAevent('Menu', 'click', 'Argentina', null)">
+				Argentina Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Left-Handed" onclick="GAevent('Menu', 'click', 'Left-Handed', null)">
+				Left-Handed Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Italy" onclick="GAevent('Menu', 'click', 'Italy', null)">
+				Italy Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Death-Penalty" onclick="GAevent('Menu', 'click', 'Death-Penalty', null)">
+				Death Penalty Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Norway" onclick="GAevent('Menu', 'click', 'Norway', null)">
+				Norway Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Spain" onclick="GAevent('Menu', 'click', 'Spain', null)">
+				Spain Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Ancient-Rome" onclick="GAevent('Menu', 'click', 'Ancient-Rome', null)">
+				Roman Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Alcohol" onclick="GAevent('Menu', 'click', 'Alcohol', null)">
+				Alcohol Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Mars" onclick="GAevent('Menu', 'click', 'Mars', null)">
+				Mars Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Sweden" onclick="GAevent('Menu', 'click', 'Sweden', null)">
+				Sweden Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Life" onclick="GAevent('Menu', 'click', 'Life', null)">
+				Life Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Germany" onclick="GAevent('Menu', 'click', 'Germany', null)">
+				Germany Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-WWI" onclick="GAevent('Menu', 'click', 'WWI', null)">
+				World War I Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_43 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Science" onclick="GAevent('Menu', 'click', 'Science', null)">
+				Science Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_14 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Africa" onclick="GAevent('Menu', 'click', 'Africa', null)">
+				Africa Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Google" onclick="GAevent('Menu', 'click', 'Google', null)">
+				Google Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_36 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Funny" onclick="GAevent('Menu', 'click', 'Funny', null)">
+				Fun Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Panda" onclick="GAevent('Menu', 'click', 'Panda', null)">
+				Panda Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Holocaust" onclick="GAevent('Menu', 'click', 'Holocaust', null)">
+				Holocaust Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Judaism" onclick="GAevent('Menu', 'click', 'Judaism', null)">
+				Judaism Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_17 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Antarctica" onclick="GAevent('Menu', 'click', 'Antarctica', null)">
+				Antarctica Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Christianity" onclick="GAevent('Menu', 'click', 'Christianity', null)">
+				Christianity Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Mexico" onclick="GAevent('Menu', 'click', 'Mexico', null)">
+				Mexico Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Obesity" onclick="GAevent('Menu', 'click', 'Obesity', null)">
+				Obesity Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Dogs" onclick="GAevent('Menu', 'click', 'Dogs', null)">
+				Dog Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_35 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bible" onclick="GAevent('Menu', 'click', 'Bible', null)">
+				Bible Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_18 slideshows_menu_19 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-New-York" onclick="GAevent('Menu', 'click', 'New-York', null)">
+				New York Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_42 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Atomic-Bomb" onclick="GAevent('Menu', 'click', 'Atomic-Bomb', null)">
+				Atomic Bomb Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_34 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Soccer" onclick="GAevent('Menu', 'click', 'Soccer', null)">
+				Soccer Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-UK" onclick="GAevent('Menu', 'click', 'UK', null)">
+				UK Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Earth" onclick="GAevent('Menu', 'click', 'Earth', null)">
+				Earth Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cuba" onclick="GAevent('Menu', 'click', 'Cuba', null)">
+				Cuba Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Brazil" onclick="GAevent('Menu', 'click', 'Brazil', null)">
+				Brazil Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Kissing" onclick="GAevent('Menu', 'click', 'Kissing', null)">
+				Kissing Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Sharks" onclick="GAevent('Menu', 'click', 'Sharks', null)">
+				Shark Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Health" onclick="GAevent('Menu', 'click', 'Health', null)">
+				Health Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_42 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Pollution" onclick="GAevent('Menu', 'click', 'Pollution', null)">
+				Pollution Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Men" onclick="GAevent('Menu', 'click', 'Men', null)">
+				Men Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_20 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Eiffel-Tower" onclick="GAevent('Menu', 'click', 'Eiffel-Tower', null)">
+				Eiffel Tower Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Love" onclick="GAevent('Menu', 'click', 'Love', null)">
+				Love Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Suicide" onclick="GAevent('Menu', 'click', 'Suicide', null)">
+				Suicide Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Coffee" onclick="GAevent('Menu', 'click', 'Coffee', null)">
+				Coffee Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Sun" onclick="GAevent('Menu', 'click', 'Sun', null)">
+				Sun Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Poverty" onclick="GAevent('Menu', 'click', 'Poverty', null)">
+				Poverty Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_30 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Math" onclick="GAevent('Menu', 'click', 'Math', null)">
+				Math Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Psychology" onclick="GAevent('Menu', 'click', 'Psychology', null)">
+				Psychology Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_38 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Slavery" onclick="GAevent('Menu', 'click', 'Slavery', null)">
+				Slavery Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Internet" onclick="GAevent('Menu', 'click', 'Internet', null)">
+				Internet Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_16 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Australia" onclick="GAevent('Menu', 'click', 'Australia', null)">
+				Australia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Canada" onclick="GAevent('Menu', 'click', 'Canada', null)">
+				Canada Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_30 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Gold" onclick="GAevent('Menu', 'click', 'Gold', null)">
+				Gold Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_33 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Movies" onclick="GAevent('Menu', 'click', 'Movies', null)">
+				Movie Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Space" onclick="GAevent('Menu', 'click', 'Space', null)">
+				Space Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_14 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Egypt" onclick="GAevent('Menu', 'click', 'Egypt', null)">
+				Egypt Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Titanic" onclick="GAevent('Menu', 'click', 'Titanic', null)">
+				Titanic Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Lincoln" onclick="GAevent('Menu', 'click', 'Lincoln', null)">
+				Abraham Lincoln Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-France" onclick="GAevent('Menu', 'click', 'France', null)">
+				France Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_44 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Moon" onclick="GAevent('Menu', 'click', 'Moon', null)">
+				Moon Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bears" onclick="GAevent('Menu', 'click', 'Bears', null)">
+				Bear Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Fish" onclick="GAevent('Menu', 'click', 'Fish', null)">
+				Fish Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cats" onclick="GAevent('Menu', 'click', 'Cats', null)">
+				Cat Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-India" onclick="GAevent('Menu', 'click', 'India', null)">
+				India Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Toilets" onclick="GAevent('Menu', 'click', 'Toilets', null)">
+				Toilet Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Eyes" onclick="GAevent('Menu', 'click', 'Eyes', null)">
+				Eye Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Chocolate" onclick="GAevent('Menu', 'click', 'Chocolate', null)">
+				Chocolate Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_46 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Water" onclick="GAevent('Menu', 'click', 'Water', null)">
+				Water Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bacteria" onclick="GAevent('Menu', 'click', 'Bacteria', null)">
+				Bacteria Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Facebook" onclick="GAevent('Menu', 'click', 'Facebook', null)">
+				Facebook Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Elephants" onclick="GAevent('Menu', 'click', 'Elephants', null)">
+				Elephant Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_32 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Music" onclick="GAevent('Menu', 'click', 'Music', null)">
+				Music Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Divorce" onclick="GAevent('Menu', 'click', 'Divorce', null)">
+				Divorce Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Food" onclick="GAevent('Menu', 'click', 'Food', null)">
+				Food Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cancer" onclick="GAevent('Menu', 'click', 'Cancer', null)">
+				Cancer Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Death" onclick="GAevent('Menu', 'click', 'Death', null)">
+				Death Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Cars" onclick="GAevent('Menu', 'click', 'Cars', null)">
+				Car Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Fruits" onclick="GAevent('Menu', 'click', 'Fruits', null)">
+				Fruit Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Phobias" onclick="GAevent('Menu', 'click', 'Phobias', null)">
+				Phobia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 slideshows_menu_30 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Inventors" onclick="GAevent('Menu', 'click', 'Inventors', null)">
+				Inventor Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Sleep" onclick="GAevent('Menu', 'click', 'Sleep', null)">
+				Sleep Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Pregnancy" onclick="GAevent('Menu', 'click', 'Pregnancy', null)">
+				Pregnancy Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_45 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-English" onclick="GAevent('Menu', 'click', 'English', null)">
+				English Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Blood" onclick="GAevent('Menu', 'click', 'Blood', null)">
+				Blood Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_25 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-WWII" onclick="GAevent('Menu', 'click', 'WWII', null)">
+				World War II Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Your-Heart" onclick="GAevent('Menu', 'click', 'Your-Heart', null)">
+				Heart Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Bill-Gates" onclick="GAevent('Menu', 'click', 'Bill-Gates', null)">
+				Bill Gates Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Marriage" onclick="GAevent('Menu', 'click', 'Marriage', null)">
+				Marriage Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Brain" onclick="GAevent('Menu', 'click', 'Brain', null)">
+				Brain Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Marijuana" onclick="GAevent('Menu', 'click', 'Marijuana', null)">
+				Marijuana Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_37 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Women" onclick="GAevent('Menu', 'click', 'Women', null)">
+				Women Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Apple" onclick="GAevent('Menu', 'click', 'Apple', null)">
+				Apple Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_13 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-USA" onclick="GAevent('Menu', 'click', 'USA', null)">
+				USA Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Your-Body" onclick="GAevent('Menu', 'click', 'Your-Body', null)">
+				Body Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 slideshows_menu_15 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Russia" onclick="GAevent('Menu', 'click', 'Russia', null)">
+				Russia Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-China" onclick="GAevent('Menu', 'click', 'China', null)">
+				China Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_29 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Mobile-Phones" onclick="GAevent('Menu', 'click', 'Mobile-Phones', null)">
+				Mobile Phone Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_30 slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-McDonalds" onclick="GAevent('Menu', 'click', 'McDonalds', null)">
+				McDonald's Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_39 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Smoking" onclick="GAevent('Menu', 'click', 'Smoking', null)">
+				Smoking Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Einstein" onclick="GAevent('Menu', 'click', 'Einstein', null)">
+				Albert Einstein Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Japan" onclick="GAevent('Menu', 'click', 'Japan', null)">
+				Japan Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_30 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Money" onclick="GAevent('Menu', 'click', 'Money', null)">
+				Money Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_28 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Hitler" onclick="GAevent('Menu', 'click', 'Hitler', null)">
+				Hitler Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_31 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Beer" onclick="GAevent('Menu', 'click', 'Beer', null)">
+				Beer Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_33 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Family-Guy" onclick="GAevent('Menu', 'click', 'Family-Guy', null)">
+				Family Guy Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_33 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-The-Simpsons" onclick="GAevent('Menu', 'click', 'The-Simpsons', null)">
+				The Simpsons Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_12 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-North-Korea" onclick="GAevent('Menu', 'click', 'North-Korea', null)">
+				North Korea Facts</a></div>
+
+		
+
+			<div class="slideshows_menu_40 "  onclick="location = $(this).find('a').attr('href')">
+				<a href="/s-Animals" onclick="GAevent('Menu', 'click', 'Animals', null)">
+				Animal Facts</a></div>
+
+		
+
+		<div class="slideshows_menu_25"  onclick="location = $(this).find('a').attr('href')">
+			<a href="/s-Fact-Of-The-Day">
+			Facts of the Day</a></div>
+	</div>
+	<div id="slideshows_menu_right"><img src="/imgs/menuright2.png" /></div>
+</div>
+
+
+
+<!-- Categories -->
+<div id="categories_menu" >
+
+	<div id="categories_menu_left">
+	  
+
+			<div  id="categories_menu_12" class="categories_menu_1" onclick="categories_show(1,12)" onmouseover="categories_show(1,12, true)">
+				Asia
+				<span id="categories_menuMobile_12" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_13" class="categories_menu_1" onclick="categories_show(1,13)" onmouseover="categories_show(1,13, true)">
+				America
+				<span id="categories_menuMobile_13" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_14" class="categories_menu_1" onclick="categories_show(1,14)" onmouseover="categories_show(1,14, true)">
+				Africa
+				<span id="categories_menuMobile_14" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_15" class="categories_menu_1" onclick="categories_show(1,15)" onmouseover="categories_show(1,15, true)">
+				Europe
+				<span id="categories_menuMobile_15" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_16" class="categories_menu_1" onclick="categories_show(1,16)" onmouseover="categories_show(1,16, true)">
+				Oceania
+				<span id="categories_menuMobile_16" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_17" class="categories_menu_1" onclick="categories_show(1,17)" onmouseover="categories_show(1,17, true)">
+				Antarctica
+				<span id="categories_menuMobile_17" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_18" class="categories_menu_1" onclick="categories_show(1,18)" onmouseover="categories_show(1,18, true)">
+				U.S.A.
+				<span id="categories_menuMobile_18" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_47" class="categories_menu_1" onclick="categories_show(1,47)" onmouseover="categories_show(1,47, true)">
+				United Nations
+				<span id="categories_menuMobile_47" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_19" class="categories_menu_1" onclick="categories_show(1,19)" onmouseover="categories_show(1,19, true)">
+				Cities
+				<span id="categories_menuMobile_19" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_20" class="categories_menu_1" onclick="categories_show(1,20)" onmouseover="categories_show(1,20, true)">
+				Places
+				<span id="categories_menuMobile_20" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_25" class="categories_menu_2" onclick="categories_show(2,25)" onmouseover="categories_show(2,25, true)">
+				Historic Events
+				<span id="categories_menuMobile_25" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_28" class="categories_menu_2" onclick="categories_show(2,28)" onmouseover="categories_show(2,28, true)">
+				People & Civilizations
+				<span id="categories_menuMobile_28" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_38" class="categories_menu_3" onclick="categories_show(3,38)" onmouseover="categories_show(3,38, true)">
+				Social Issues
+				<span id="categories_menuMobile_38" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_37" class="categories_menu_3" onclick="categories_show(3,37)" onmouseover="categories_show(3,37, true)">
+				Life & Love
+				<span id="categories_menuMobile_37" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_29" class="categories_menu_3" onclick="categories_show(3,29)" onmouseover="categories_show(3,29, true)">
+				Tech & Invention
+				<span id="categories_menuMobile_29" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_36" class="categories_menu_3" onclick="categories_show(3,36)" onmouseover="categories_show(3,36, true)">
+				Humor & Offbeat
+				<span id="categories_menuMobile_36" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_35" class="categories_menu_3" onclick="categories_show(3,35)" onmouseover="categories_show(3,35, true)">
+				Religion
+				<span id="categories_menuMobile_35" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_45" class="categories_menu_3" onclick="categories_show(3,45)" onmouseover="categories_show(3,45, true)">
+				Books & Language
+				<span id="categories_menuMobile_45" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_33" class="categories_menu_3" onclick="categories_show(3,33)" onmouseover="categories_show(3,33, true)">
+				Movies & TV
+				<span id="categories_menuMobile_33" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_32" class="categories_menu_3" onclick="categories_show(3,32)" onmouseover="categories_show(3,32, true)">
+				Art & Music
+				<span id="categories_menuMobile_32" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_31" class="categories_menu_3" onclick="categories_show(3,31)" onmouseover="categories_show(3,31, true)">
+				Food & Drink
+				<span id="categories_menuMobile_31" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_30" class="categories_menu_3" onclick="categories_show(3,30)" onmouseover="categories_show(3,30, true)">
+				Business & Economy
+				<span id="categories_menuMobile_30" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_34" class="categories_menu_3" onclick="categories_show(3,34)" onmouseover="categories_show(3,34, true)">
+				Sports & Games
+				<span id="categories_menuMobile_34" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_43" class="categories_menu_3" onclick="categories_show(3,43)" onmouseover="categories_show(3,43, true)">
+				Science
+				<span id="categories_menuMobile_43" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_40" class="categories_menu_4" onclick="categories_show(4,40)" onmouseover="categories_show(4,40, true)">
+				Animals & other lifeforms
+				<span id="categories_menuMobile_40" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_39" class="categories_menu_4" onclick="categories_show(4,39)" onmouseover="categories_show(4,39, true)">
+				Body & Health
+				<span id="categories_menuMobile_39" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_44" class="categories_menu_4" onclick="categories_show(4,44)" onmouseover="categories_show(4,44, true)">
+				Space
+				<span id="categories_menuMobile_44" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_42" class="categories_menu_4" onclick="categories_show(4,42)" onmouseover="categories_show(4,42, true)">
+				Global Issues
+				<span id="categories_menuMobile_42" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_41" class="categories_menu_4" onclick="categories_show(4,41)" onmouseover="categories_show(4,41, true)">
+				Phenomena
+				<span id="categories_menuMobile_41" class="categories_menuMobile"></span>
+			</div>			
+
+		
+
+			<div  id="categories_menu_46" class="categories_menu_4" onclick="categories_show(4,46)" onmouseover="categories_show(4,46, true)">
+				Plants & Minerals
+				<span id="categories_menuMobile_46" class="categories_menuMobile"></span>
+			</div>			
+
+		
+	</div>
+	<div id="categories_menu_right"><img src="/imgs/menuright.png" /></div>
+
+</div>
+
+
+<!-- Main Categories -->
+<div id="mainCategories_menu" onmouseover="categories_show()">
+	<img id="mainCategories_menu_up" src="/imgs/menuup.png" />
+
+	
+			<div id="mainCategories_menu_1" onclick="categories_show(1)" onmouseover="categories_show(1)">World</div>
+			<span id="mainCategories_menuMobile_1" class="mainCategories_menuMobile"></span>
+		
+			<div id="mainCategories_menu_2" onclick="categories_show(2)" onmouseover="categories_show(2)">History</div>
+			<span id="mainCategories_menuMobile_2" class="mainCategories_menuMobile"></span>
+		
+			<div id="mainCategories_menu_3" onclick="categories_show(3)" onmouseover="categories_show(3)">Society</div>
+			<span id="mainCategories_menuMobile_3" class="mainCategories_menuMobile"></span>
+		
+			<div id="mainCategories_menu_4" onclick="categories_show(4)" onmouseover="categories_show(4)">Nature</div>
+			<span id="mainCategories_menuMobile_4" class="mainCategories_menuMobile"></span>
+		
+</div>
+
+
+<!-- Prev button -->
+<a id="prevA" onclick="getItem(true); return false" href="#"><img id="prevT" src="imgs/prevT.png" border="0" /><img id="prev" src="imgs/prevX.png" border="0" title="TIP: You can also press the <-- arrow on your keyboard" /></a>
+ 
+<!-- "Next" button -->
+<a id="nextA" onclick="getItem(); return false"     href="/p-2"><img id="nextT" src="imgs/nextT.png" border="0" /><img id="next" src="imgs/nextX.png" border="0" title="TIP: You can also press the --> arrow on your keyboard" /></a>
+
+<!-- swipe sign -->
+<div id="swipe"><img src="/imgs/swipe.png" /></div>
+
+
+<div id="factToolsHidden">
+
+	<!--  Source button -->
+	<div id="source" onclick="source()">SOURCE</div>
+
+	<!--  Share button -->
+	<div id="share" onclick="share()">&#9850; SHARE</div>
+
+	<!--  Fav button -->
+	<div id="fav" onclick="fav()"><span>&#10084;</span> FAV</div>
+
+</div>
+
+
+
+
+<!-- Facebook mouseover subscribe -->
+<div id="FBsubscribe" onmouseover="FBsubscribe_show()"  style="display:none; position:absolute; text-align:right; top:0.7em; left:10em; ">
+	<div class="fb-page" data-href="https://www.facebook.com/Factslides/" data-tabs="timeline" data-width="200" data-height="70" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"></div></div>
+</div>
+
+
+
+
+
+<!-- Alert "Loading" -->
+<div id="alert_loading" style="display:block" class="alert">
+
+	<div class="alert_bg"></div>
+	<div id="alert_loading_text">
+		Loading...
+	</div>
+
+</div>
+
+
+
+
+
+
+<!-- Alert "Login" -->
+<form id="formlogin" name="formlogin" method="post" onsubmit="return login(this)">
+<div id="alert_login" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_login').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">welcome back</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value" id="alert_login_fb" onclick="location='https://www.facebook.com/dialog/oauth?client_id=573918742663550&redirect_uri=http://www.factslides.com/FBLogin/?action=login'">
+			<img src="imgs/FB.png" border="0" /> Log In With Facebook
+		</div>
+		<div class="clear"></div>
+
+
+		<div class="alert_title">- or -</div>
+
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_l_email" name="txt_l_email" value="Email Address" maxlength="225" onfocus="if (this.value=='Email Address'){ this.value='' }" onblur="if (this.value==''){ this.value='Email Address' }" />
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_l_pass" name="txt_l_pass" value="Password" maxlength="20"  onfocus="this.type='password'; if (this.value=='Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Password'; this.type='text' }"  />
+
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="return login(this.form)" value="LOG IN" />	
+	</div>
+</div>
+</form>
+
+
+<!-- Alert "Register" -->
+<form id="formreg" name="formreg" method="post" onsubmit="return register(this)">
+<div id="alert_register" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_register').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title2">sign up</div>
+		<div class="alert_subtitle">Step 1</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value" id="alert_register_fb" onclick="location='https://www.facebook.com/dialog/oauth?client_id=573918742663550&redirect_uri=http://www.factslides.com/FBLogin/?action=register'">
+			<img src="imgs/FB.png" border="0" /> Sign Up With Facebook
+		</div>
+		<div class="clear"></div>
+
+
+		<div class="alert_title">- or -</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_email" name="txt_r_email" maxlength="225" value="Email Address" onfocus="if (this.value=='Email Address'){ this.value='' }" onblur="if (this.value==''){ this.value='Email Address' }"  />			
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_pass" name="txt_r_pass" maxlength="20" value="Password" onfocus="this.type='password'; if (this.value=='Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Password'; this.type='text' }"  />
+
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_pass2" name="txt_r_pass2" maxlength="20" value="Repeat Password" onfocus="this.type='password'; if (this.value=='Repeat Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Repeat Password'; this.type='text' }"  />
+
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<span>I'm a</span>
+			<input type="radio" class="alert_check" id="rbl_r_target_s" name="rbl_r_target" value="student" /><label for="rbl_r_target_s">Student</label>
+			<input type="radio" class="alert_check" id="rbl_r_target_t" name="rbl_r_target" value="teacher" /><label for="rbl_r_target_t">Teacher</label>
+			<input type="radio" class="alert_check" id="rbl_r_target_a" name="rbl_r_target" value="adult" /><label for="rbl_r_target_a">Curious Mind</label>
+
+		</div>
+		<div class="clear"></div>
+
+		<div>
+			<input type="button" class="alert_button" style="margin-bottom:0" onclick="return register(this.form)" value="SIGN UP" />
+		</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value" style="text-align:center">
+			<input type="checkbox" class="alert_check" id="chk_r_newsletter" name="chk_r_newsletter" checked="true" /><label for="chk_r_newsletter">Get a weekly digest of facts by e-mail</label>
+		</div>
+
+
+
+		
+	</div>
+</div>
+</form>
+
+
+
+
+<!-- Alert "missingFields" -->
+<form id="formreg" name="formmissingFields" method="post" onsubmit="return missingFields(this)">
+<div id="alert_missingFields" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_missingFields').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title2">you're registered, but please specify...</div>
+
+		<div id="alert_missingFields_email" style="display:none">
+			<div class="alert_option">&nbsp;</div>
+			<div class="alert_value">
+				<input type="text" class="itext" id="txt_m_email" name="txt_m_email" maxlength="225" value="Email Address" onfocus="if (this.value=='Email Address'){ this.value='' }" onblur="if (this.value==''){ this.value='Email Address' }"  />			
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<div id="alert_missingFields_pass" style="display:none">
+			<div class="alert_option">&nbsp;</div>
+			<div class="alert_value">
+				<input type="text" class="itext" id="txt_m_pass" name="txt_m_pass" maxlength="20" value="Password" onfocus="this.type='password'; if (this.value=='Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Password'; this.type='text' }"  />
+	
+			</div>
+			<div class="clear"></div>
+
+			<div class="alert_option">&nbsp;</div>
+			<div class="alert_value">
+				<input type="text" class="itext" id="txt_m_pass2" name="txt_m_pass2" maxlength="20" value="Repeat Password" onfocus="this.type='password'; if (this.value=='Repeat Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Repeat Password'; this.type='text' }"  />
+	
+			</div>
+			<div class="clear"></div>
+		</div>
+
+
+		<div id="alert_missingFields_target" style="display:none">
+			<div class="alert_option">&nbsp;</div>
+			<div class="alert_value">
+				I'm a	
+				<input type="radio" class="alert_check" id="rbl_m_target_s" name="rbl_m_target" value="student" /><label for="rbl_m_target_s">Student</label>
+				<input type="radio" class="alert_check" id="rbl_m_target_t" name="rbl_m_target" value="teacher" /><label for="rbl_m_target_t">Teacher</label>
+				<input type="radio" class="alert_check" id="rbl_m_target_a" name="rbl_m_target" value="adult" /><label for="rbl_m_target_a">Curious Mind</label>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+
+
+		<input type="button" class="alert_button" onclick="return missingFields(this.form)" value="SAVE" />
+
+		
+	</div>
+</div>
+</form>
+
+
+
+<!-- Load -->
+
+<script language="javascript">
+
+	pLoad()
+
+</script>
+
+
+
+
+
+
+
+
+<!-- Alert "Share" -->
+<div id="alert_share" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_share').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">share</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+
+			<div id="alert_share_slide">
+				<input type="radio" class="alert_check" id="rbl_share_slide_i" name="rbl_share_slide" value="i" checked="true" /><label for="rbl_share_slide_i">This Slide</label>
+				&nbsp;&nbsp;
+				<input type="radio" class="alert_check" id="rbl_share_slide_s" name="rbl_share_slide" value="s" /><label for="rbl_share_slide_s">This whole Slideshow</label>
+			</div>
+
+
+			<div id="alert_share_FB" onclick="share_FB()"><img src="imgs/FB.png"    border="0" /></div>
+			<div id="alert_share_TW" onclick="share_TW()"><img src="imgs/TW.png"    border="0" /></div>
+			<div id="alert_share_PI" onclick="share_PI()"><img src="imgs/PI.png"    border="0" /></div>
+			<div id="alert_share_EM" onclick="share_EM()"><img src="imgs/EMAIL.png" border="0" /></div>			
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="$('#alert_share').hide()" value="DONE" />	
+	</div>
+</div>
+
+
+
+
+
+<!-- Alert "Change Pass" -->
+<form id="formchangePass" name="formchangePass" method="post" onsubmit="return changePass(this)">
+<div id="alert_changePass" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_changePass').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">change password</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_passold" name="txt_r_passold" maxlength="20" value="Old Password" onfocus="this.type='password'; if (this.value=='Old Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Old Password'; this.type='text' }" />
+
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_pass" name="txt_r_pass" maxlength="20" value="New Password" onfocus="this.type='password'; if (this.value=='New Password'){ this.value='' }" onblur="if (this.value==''){ this.value='New Password'; this.type='text' }" />
+
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_r_pass2" name="txt_r_pass2" maxlength="20" value="Repeat New Password" onfocus="this.type='password'; if (this.value=='Repeat New Password'){ this.value='' }" onblur="if (this.value==''){ this.value='Repeat New Password'; this.type='text' }" />
+
+		</div>
+		<div class="clear"></div>
+		<input type="button" class="alert_button" onclick="return changePass()" value="Change Password" />
+
+		
+	</div>
+</div>
+</form>
+
+
+
+<!-- Alert Profile -->
+<form id="formprofile" name="formprofile" method="post" onsubmit="return profile(this)">
+<div id="alert_profile" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_profile').hide()" class="alert_close" > X </span>
+
+		<div id="alert_profile_title" class="alert_title2">profile</div>
+		<div id="alert_profile_step" class="alert_subtitle">Step 2</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="text" class="itext" id="txt_p_name" name="txt_p_name" maxlength="100" value="Your Name" onfocus="if (this.value=='Your Name'){ this.value='' }" onblur="if (this.value==''){ this.value='Your Name'; this.type='text' }" />			
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="radio" class="alert_check" id="rbl_p_gender_m" name="rbl_p_gender" value="m" /><label for="rbl_p_gender_m">Male</label>
+			<input type="radio" class="alert_check" id="rbl_p_gender_f" name="rbl_p_gender" value="f" /><label for="rbl_p_gender_f">Female</label>
+			<input type="radio" class="alert_check" id="rbl_p_gender_o" name="rbl_p_gender" value="o" /><label for="rbl_p_gender_o">Other</label>
+
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<select name="drp_p_birthyear" id="drp_p_birthyear" style="width:32%"><option value="">Birth year</option></select>
+			<select name="drp_p_birthmonth" id="drp_p_birthmonth" style="width:32%">
+			    <option value="">month</option>
+			    <option value="01">January</option>
+			    <option value="02">February</option>
+			    <option value="03">March</option>
+			    <option value="04">April</option>
+			    <option value="05">May</option>
+			    <option value="06">June</option>
+			    <option value="07">July</option>
+			    <option value="08">August</option>
+			    <option value="09">September</option>
+			    <option value="10">October</option>
+			    <option value="11">November</option>
+			    <option value="12">December</option>
+			</select>
+			<select name="drp_p_birthday" id="drp_p_birthday" style="width:32%"><option value="">day</option></select>
+
+		</div>
+		<div class="clear"></div>
+
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<select id="drp_p_country"><option value="">Your Country</option></select>
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="return profile(this.form)" value="Save Profile" />
+
+		
+	</div>
+</div>
+</form>
+
+
+
+
+<!-- Alert Interests -->
+<form id="forminterests" name="forminterests" method="post" onsubmit="return interests(this)">
+<div id="alert_interests" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_interests').hide()" class="alert_close" > X </span>
+
+		<div id="alert_interests_title" class="alert_title2">my interests</div>
+		<div id="alert_interests_step" class="alert_subtitle">Step 3</div>
+
+		<div id="alert_interests_cats">
+			<div id="alert_interests_mainCat_X" class="alert_interests_mainCat" style="display:none">
+				<input type="checkbox" class="alert_check" name="alert_interestsM" id="alert_interestsM_X" value="" checked />
+				<label for="alert_interestsM_X">Interest</label>
+
+				<input type="checkbox" class="alert_check" name="alert_interests_X" id="alert_interests_X" value="" style="display:none" />
+				<label for="alert_interests_X" style="display:none">Interest</label>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="return interests()" value="Save Interests" />
+
+		
+	</div>
+</div>
+</form>
+
+
+
+
+<!-- Alert "Settings" -->
+<form id="forminterests" name="formslidesettings" method="post" onsubmit="return slideSettings(this)">
+<div id="alert_slideSettings" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_slideSettings').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">slide settings</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<input type="checkbox" class="alert_check" id="alert_slideSettings_animation" checked="true" onclick="$('label[for=alert_slideSettings_animation').text( ($(this).prop('checked') ? 'Animation ON' : 'Animation OFF') )" />
+			<label for="alert_slideSettings_animation" onclick="$(this).text( ($('#alert_slideSettings_animation').prop('checked') ? 'Animation ON' : 'Animation OFF') )">Animation ON</label>
+		</div>
+		<div class="clear"></div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+			<select id="alert_slideSettings_autoslide">
+				<option value="0">No Autoslide</option>
+				<option value="3">Autoslide every 3 secs</option>
+				<option value="5">Autoslide every 5 secs</option>
+				<option value="7">Autoslide every 7 secs</option>
+				<option value="10">Autoslide every 10 secs</option>
+				<option value="15">Autoslide every 15 secs</option>
+				<option value="20">Autoslide every 20 secs</option>
+				<option value="30">Autoslide every 30 secs</option>
+				<option value="60">Autoslide every 1 min</option>
+				<option value="180">Autoslide every 3 min</option>
+				<option value="300">Autoslide every 5 min</option>
+			</select>
+		</div>
+		<div class="clear"></div>		
+		
+		<input type="button" class="alert_button" onclick="return slideSettings(this.form)" value="Save Settings" />
+	
+	</div>
+</div>
+</form>
+
+
+
+<!-- Alert Register Now! -->
+<div id="alert_registerNow" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_registerNow').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">Like Factslides? Register!</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value">
+
+			<b>&#10004; See only NEW facts</b> you haven't seen before.
+			<br/>			
+			<b>&#10004;</b> Filter Random Facts by Interest (Humor, History, ...)
+			<br/>
+			<b>&#10004;</b> Save Favorites
+			<br/>
+			and more!
+					
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="$('#alert_registerNow').hide(); $('#alert_register').show()" value="Register for FREE" /><br/><input type="button" class="alert_button2" onclick="$('#alert_registerNow').hide()" value="Not now..." />		
+	</div>
+</div>
+
+
+<!-- Alert "Subscribe" -->
+<div id="alert_subscribe" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_subscribe').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">Like FACTSlides? Subscribe!</div>
+
+		<form id="formsubsc2" STYLE="margin:0px; padding:0px;" action="http://Oddee.us7.list-manage.com/subscribe/post?u=aeb12e0a0216e2fa3e43099e5&amp;id=61951124c0" method="post" target="_blank" onsubmit="GAevent('Subscribe_popup', 'Email', this.EMAIL.value); ">
+		<div class="alert_option">By E-mail:</div>
+		<div class="alert_value" style="margin-top:0.3em">
+			<input type="text" id="formsubsc2_email" name="EMAIL" style="border:0.15em solid #ff453c; font-size:0.7em; position:relative; top:-0.15em; width:7em; left:0.45em" onblur="if(this.value=='') { this.value='Your E-mail' }" onfocus="if(this.value=='Your E-mail') { this.value='' }" value="Your E-mail" 
+						/><a onclick="GAevent('Subscribe', 'Email', $('#formsubsc2_email').val()); document.forms['formsubsc2'].submit()" href="javascript:void(0)"><img src="imgs/Email.png" border="0" align="absmiddle" style="height:1.3em; left:-1.3em; "></a>
+		</div>
+		<div class="clear"></div>
+		</form>
+
+		<div class="alert_option">Facebook:</div>
+		<div class="alert_value">
+			<a onclick="GAevent('Subscribe_popup', 'FB')" href="https://www.facebook.com/FACTSlides"><img src="imgs/FB.png" style="height:1.6em" border="0" align="absmiddle"></a>
+		</div>
+		<div class="clear"></div>		
+		
+		<div class="alert_option">Twitter:</div>
+		<div class="alert_value">
+			<a onclick="GAevent('Subscribe_popup', 'TW')" href="https://twitter.com/intent/follow?&screen_name=factslides"><img src="imgs/TW.png" style="height:1.6em" border="0" align="absmiddle"></a>
+		</div>
+		<div class="clear"></div>	
+	
+		<div class="alert_option">Pinterest:</div>
+		<div class="alert_value">
+			<a onclick="GAevent('Subscribe_popup', 'PI')" href="https://www.pinterest.com/factslides/pins/follow/"><img src="imgs/PI.png" style="height:1.6em" border="0" align="absmiddle"></a>
+		</div>
+		<div class="clear"></div>		
+		
+		
+		<div class="alert_button" onclick="$('#alert_subscribe').hide()" >CLOSE THIS</div>
+
+		
+	</div>
+</div>
+
+
+
+
+<!-- Alert "About" -->
+<div id="alert_about" class="alert">
+
+	<div class="alert_bg"></div>
+	<div class="alert_body">
+		<span onclick="$('#alert_about').hide()" class="alert_close" > X </span>
+
+		<div class="alert_title">about</div>
+
+		<div class="alert_option">&nbsp;</div>
+		<div class="alert_value" id="alert_about_about_us">
+
+			Factslides a high traffic content website (over 1 million visits / month) that takes relevant and complex information from NGOs, think tanks, journals, specialized magazines and media and converts it into colorful and animated slideshows that are easy and fun to read, making the information accessible to students, teachers and curious minds for fun, research, lesson planning, and homework.
+			<br /><br />
+			Factslides is dedicated to provide well-sourced and verified information that will help young people access the information and critical thinking skills they need to make our world a better place. 			
+			<br /><br />
+			Launched in July, 2013, it has shown its facts over 1000 million times, and was selected among the <a target="_blank" href="http://www.pcmag.com/article2/0,2817,2428804,00.asp">Top 100 websites of 2013</a> 
+			by the prestigious <b>PC Magazine</b>, and as one of the <a target="_blank" href="http://www.businessinsider.com/sites-every-professional-should-know-about-2015-1">99 Sites That Every Professional Should Know About</a> by BusinessInsider. 
+			It was also featured in sites such as <a target="_blank" href="http://theawesomer.com/factslides/247731/">The Awesomer</a>, <a target="_blank" href="http://designtaxi.com/news/361501/A-Website-Of-Fun-Facts-That-Will-Make-You-More-Knowledgeable/">Design Taxi</a>, I-Am-Bored.com, Neatorama, and <a target="_blank" href="http://www.youtube.com/watch?v=wySN_bcNSoo">DONG</a>, a YouTube show with over a million subscribers.
+					
+		</div>
+		<div class="alert_value" id="alert_about_faq">
+
+
+			<b>How do I know your facts are credible?</b></br>
+			All facts are verified and well sourced. The source URL is located at the bottom of each fact.
+			<br /><br />
+			
+			<b>Can I use your facts on my site / video / whatever?</b></br>
+			You sure can. Just be sure to include a link back to <a href="http://www.factslides.com">FACTSlides.com</a> as your source.
+			<br /><br />
+
+			<b>I found a mistake or have a suggestion! What should I do?</b></br>
+			<span style="cursor:pointer" onclick="sWin('/contact')">Contact us!</span>
+			
+		</div>
+		<div class="clear"></div>
+
+		<input type="button" class="alert_button" onclick="$('#alert_about').hide()" value="OK!" />	
+	</div>
+</div>
+
+
+<!-- Ad #1 -->
+<div id="ad1">
+
+
+		
+
+
+	   <!-- Ezoic - FS_Top - under_first_paragraph -->
+	   <div id='ezoic-pub-ad-placeholder-100'><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Factslides -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-1943569606117530"
+		     data-ad-slot="1159523425"
+		     data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script></div>
+	   <!-- End Ezoic - FS_Top - under_first_paragraph -->
+
+	
+
+</div>
+
+
+<!-- Book -->
+
+<div id="book" style="cursor:pointer" onclick="location='https://www.amazon.com/Facts-Brain-Explode-Factslides-com-Books-ebook/dp/B01N4UX5N5/ref=as_li_ss_tl?ie=UTF8&qid=1486129381&sr=8-5&keywords=1001+facts&linkCode=ll1&tag=factslidesbook-20&linkId=d473bd00e89ba5b76e3c8367960b2987'">
+
+	<div id="book_icon"><img src="/imgs/book.png" /></div>
+	<div id="book_title">
+		<div>
+			<span>OUR NEW BOOK</span>
+		</div>
+	</div>
+
+	<div id="book_content"><div>
+
+		<a href="https://www.amazon.com/Facts-Brain-Explode-Factslides-com-Books-ebook/dp/B01N4UX5N5/ref=as_li_ss_tl?ie=UTF8&qid=1486129381&sr=8-5&keywords=1001+facts&linkCode=ll1&tag=factslidesbook-20&linkId=d473bd00e89ba5b76e3c8367960b2987">
+			<img src="/imgs/book-1001.jpg" style=" height:80%; max-height:270px; width:auto; padding-right:1.5em; padding-bottom:0.5em;" align="left" border="0" />
+		</a>
+
+		Introducing our first book:
+		<br /><br />
+		<b>1001 Facts to Make your Brain Explode!</b>
+		<br /><br />
+		Even if you visit Factslides.com every day to get your dosis of new facts —just like over 1 million visitors do every month—, in this book you'll find facts you've never seen before!
+		<br />
+		<a style="color:gold; font-weight:bolder" href="https://www.amazon.com/Facts-Brain-Explode-Factslides-com-Books-ebook/dp/B01N4UX5N5/ref=as_li_ss_tl?ie=UTF8&qid=1486129381&sr=8-5&keywords=1001+facts&linkCode=ll1&tag=factslidesbook-20&linkId=d473bd00e89ba5b76e3c8367960b2987">Check it out on Amazon &raquo;</a>
+
+
+	</div></div>
+
+</div>
+
+
+
+<!-- Trending -->
+
+
+
+<div id="trending">
+
+	<div id="trending_icon"><img src="/imgs/trending.png" /></div>
+	<div id="trending_title">
+		<div>
+			<span>LATEST SLIDESHOWS</span>
+		</div>
+		<div id="search">
+			<form id="search_form" onsubmit="var v=this.search_form_box.value; if (v=='' || v=='Search Facts') { alert('Please specify your search'); return false } else { location='/k-'+ escape(v); return false; }">
+				<input type="text" id="search_form_box" name="search_form_box" value="Search Facts" onfocus="if (this.value=='Search Facts') { this.value='' }" onblur="if (this.value=='') { this.value='Search Facts' }"  />
+				<img id="search_form_icon" onclick="$('#search_form').submit()" src="/imgs/search.png" border="0"  align="absmiddle" />
+			</form>
+		</div>
+	</div>
+
+	<div id="trending_content"><div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Animal-Testing" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat1">Social Issues</span>
+					<img src="/imgs/trending/Animal-Testing.jpg" />
+					<div class="trending_item_title">12 Facts you didn't know about <b>Animal Testing</b></div>
+				</a>
+			</div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Saturn" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat2">Space</span>
+					<img src="/imgs/trending/Saturn.jpg" />
+					<div class="trending_item_title">12 Amazing Facts about <b>Saturn</b></div>
+				</a>
+			</div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Bullying" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat3">Social Issues</span>
+					<img src="/imgs/trending/Bullying.jpg" />
+					<div class="trending_item_title">15 Fun Facts about <b>Bullying</b></div>
+				</a>
+			</div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Fidel-Castro" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat4">People & Civilizations</span>
+					<img src="/imgs/trending/Fidel-Castro.jpg" />
+					<div class="trending_item_title">19 New Facts about <b>Fidel Castro</b></div>
+				</a>
+			</div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Colombia" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat5">America</span>
+					<img src="/imgs/trending/Colombia.jpg" />
+					<div class="trending_item_title">11 Surprising Facts about <b>Colombia</b></div>
+				</a>
+			</div>
+
+
+		
+			
+
+			<div class="trending_content_item">
+				<a href="s-Vietnam-War" onclick="GAevent('Trending', 'click', $(this).attr('href') );">
+					<span class="trending_content_item_cat6">Historic Events</span>
+					<img src="/imgs/trending/Vietnam-War.jpg" />
+					<div class="trending_item_title">14 Unique Facts about <b>The Vietnam War</b></div>
+				</a>
+			</div>
+
+
+		
+
+	</div></div>
+	<div id="trending_content_more" onclick="trending_more(60,new Array('Sustainable-Development','20','Sustainable Development','United Nations','Hawaii','15','Hawaii','U.S.A.','Switzerland','14','Switzerland','Europe','Las-Vegas','12','Las Vegas','Cities','Lightning','17','Lightning','Phenomena','Shakespeare','13','Shakespeare','Books & Language','Indonesia','13','Indonesia','Asia','Disney','18','Disney','Movies & TV','Denmark','18','Denmark','Europe','Ancient-Greece','19','Ancient Greece','People & Civilizations','Buddhism','21','Buddhism','Religion','South-Africa','17','South Africa','Africa','Asia','21','Asia','Asia','Depression','21','Depression','Body & Health','Alaska','24','Alaska','U.S.A.','Florida','20','Florida','U.S.A.','Big-Ben','14','The Big Ben','Places','Hinduism','12','Hinduism','Religion','Lion','14','Lions','Animals & other lifeforms','D-Day','17','D-Day','Historic Events','Autism','13','Autism','Body & Health','Berlin-Wall','17','The Berlin Wall','Places','Zebra','10','Zebras','Animals & other lifeforms','Venus','15','Venus','Space','Pluto','12','Pluto','Space','Solar-System','19','The Solar System','Space','Isaac-Newton','20','Isaac Newton','People & Civilizations','Breast-Cancer','13','Breast Cancer','Body & Health','Barack-Obama','20','Barack Obama','People & Civilizations','Christopher-Columbus','20','Christopher Columbus','People & Civilizations','YouTube','21','YouTube','Tech & Invention','Ireland','21','Ireland','Europe','Tiger','25','Tigers','Animals & other lifeforms','Koala','16','Koalas','Animals & other lifeforms','Drug','18','Drugs','Body & Health','Amazon-Rainforest','21','The Amazon Rainforest','Places','Dolphin','24','Dolphins','Animals & other lifeforms','Benjamin-Franklin','25','Benjamin Franklin','People & Civilizations','Christmas','15','Christmas','Religion','George-Washington','29','George Washington','People & Civilizations','Golden-Gate-Bridge','16','The Golden Gate Bridge','Places','Venezuela','20','Venezuela','America','Monkey','15','Monkeys','Animals & other lifeforms','Earthquake','19','Earthquakes','Phenomena','Octopus','28','Octopuses','Animals & other lifeforms','Auschwitz','25','Auschwitz','Places','Penguin','29','Penguins','Animals & other lifeforms','Alexander-The-Great','21','Alexander The Great','People & Civilizations','JFK','25','JFK','People & Civilizations','Harry-Potter','52','Harry Potter','Movies & TV','Volcano','20','Volcanoes','Places','Bolivia','20','Bolivia','America','Dinosaur','27','Dinosaurs','Animals & other lifeforms','Spider','24','Spiders','Animals & other lifeforms'))">LOAD MORE</div>
+
+</div>
+
+
+<!-- Ad #2 -->
+<div id="ad2">
+
+
+
+	<!-- Ezoic - FS_Bottom - bottom_of_page -->
+	<div id="ezoic-pub-ad-placeholder-101">
+
+			
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Factslides Bottm -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-1943569606117530"
+			     data-ad-slot="7143711025"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		
+
+
+	</div>
+	<!-- End Ezoic - FS_Bottom - bottom_of_page -->
+
+
+</div>
+
+
+<div id="footer">
+
+	<div id="footer_logo">
+		<a href="/"><img src="/imgs/logo-long.png" border="0" /></a>
+		<div id="footer_copyright">
+			&copy; 2013 - 2017. All Rights Reserved.
+		</div>
+	</div>
+	<div id="footer_about">
+		<div onclick="about('about us')">About Us</div>
+		<div onclick="about('faq')">Questions? FAQ</div>
+		<div onclick="sWin('/privacy')">Privacy Policy</div>
+		<div onclick="sWin('/contact')">Contact Us</div>
+	</div>
+	<div id="footer_social">
+		<a href="https://www.facebook.com/FACTSlides/" target="_blank" onclick="GAevent('Social', 'FB')"><img src="/imgs/FB2.png" border="0" /></a>
+		<a href="https://www.twitter.com/FACTSlides/" target="_blank" onclick="GAevent('Social', 'TW')"><img src="/imgs/TW2.png" border="0" /></a>
+		<a href="https://www.pinterest.com/FACTSlides/" target="_blank" onclick="GAevent('Social', 'PI')"><img src="/imgs/PI2.png" border="0" /></a>
+	</div>
+</div>
+
+
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=573918742663550";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<!-- 3/4/2017 2:01:45 PM -->
+    
+
+<script type='text/javascript' src='//www.factslides.com/utilcave_com/inc/ezf-min.webp?a=a&cb=0&shcb=9' style='display:none;' async></script>
+</body>
+</html>
