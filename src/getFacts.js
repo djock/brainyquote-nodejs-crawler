@@ -32,12 +32,13 @@ async function getFacts() {
     for (let link in categoriesLinks) {
         // get caategory
         let currentCategory = '';
+        let dataSourceArray ='';
+        let dataTextArray = '';
 
         for(let i in categories) {
             if(categoriesLinks[link]) {
                 if(categories[i].includes(categoriesLinks[link])) {
                     currentCategory = i;
-                    console.log(currentCategory);
                 }                    
             }
         }
@@ -54,41 +55,80 @@ async function getFacts() {
             let resCategoryData = resCategory.data;
 
             const itemsSourceReg = /(\bitemsSource\b.*)/g;
+            const itemsHtmlReg = /(\bitemsHTML\b.*)/g;
             const sourceLinkReg = /(\bhttp\b.+?\,)/g;
 
             let itemsSourceText = itemsSourceReg.exec(resCategoryData);
-            let sourceLinksArray;
-
-            if(itemsSourceText) {
-                let itemsSourceString = itemsSourceText.toString();
-                sourceLinksArray = itemsSourceString.match(sourceLinkReg);
-            }
+            let itemsHTMLText = itemsHtmlReg.exec(resCategoryData);
             
-            let categoryData = cheerio.load(resCategoryData);
+            
 
-            categoryData('#items ol > div.i').each(function(i, elem) {
-                let text = targetData(this).find('li').text();
-                let currentSource;
+            if(itemsHTMLText[0]) {
+                let itemsHTMLString = itemsHTMLText[0].toString();
 
-                if(sourceLinksArray) {
-                    currentSource = sourceLinksArray[i] ?  sourceLinksArray[i].replace(/'.*$/g, "") : null;
-                }
+                let itemsHTMLCleanText = itemsHTMLString.replace(/itemsHTML/g, "")
+                                            .replace(/= new Array\(/g, "")
+                                            .replace(/= new Array\(/g, "")
+                                            .replace(/\);/g, "")
+                                            .replace(/<span>/g, "")
+                                            .replace(/<\/span>/g, "")
+                                            .replace(/\\\'/g);
+                dataTextArray = itemsHTMLCleanText.split("','");
+                dataTextArray.shift();
+            }
+
+            if(itemsSourceText[0]) {
+                let itemsSourceString = itemsSourceText[0].toString();
+
+                let itemsSourceCleanText = itemsSourceString.replace(/itemsHTML/g, "")
+                                            .replace(/= new Array\(/g, "")
+                                            .replace(/= new Array\(/g, "")
+                                            .replace(/\);/g, "")
+                                            .replace(/<span>/g, "")
+                                            .replace(/<\/span>/g, "")
+                                            .replace(/\\\'/g);
+                dataSourceArray = itemsSourceCleanText.split("','");
+                dataSourceArray.shift();
+
+            }
+            for(let i = 0; i< dataTextArray.length; i++) {
+                let text = dataTextArray[i];
+                let source = dataSourceArray[i];
 
                 dataIndex++;
                 let data = {
                     id: dataIndex,
                     text: text,
-                    source: currentSource ? currentSource.replace(/',/g, "") : '',
+                    source: source,
                     category: currentCategory
                 };
                 console.log(data);
                 console.log('----------');
                 resultJSON[dataIndex] = data;
-            });
-            }
         }
-        
-        
+            
+            let categoryData = cheerio.load(resCategoryData);
+
+            // categoryData('#items ol > div.i').each(function(i, elem) {
+            //     let text = targetData(this).find('li').text();
+            //     let currentSource;
+
+            //     if(sourceLinksArray) {
+            //         currentSource = sourceLinksArray[i] ?  sourceLinksArray[i].replace(/'.*$/g, "") : null;
+            //     }
+
+            //     dataIndex++;
+            //     let data = {
+            //         id: dataIndex,
+            //         text: text,
+            //         source: currentSource ? currentSource.replace(/',/g, "") : '',
+            //         category: currentCategory
+            //     };
+
+            //     resultJSON[dataIndex] = data;
+            // });
+        }
+    }
     return resultJSON;
 }
 
