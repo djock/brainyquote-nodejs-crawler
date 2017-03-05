@@ -26,17 +26,19 @@ async function getFacts() {
         let thisIndex = targetData(this).attr('class').replace('slideshows_menu_', '').replace(' ', '');
 
         if(thisIndex.length == 2) {
-            categoriesLinks[link] = thisIndex;
+            categoriesLinks[link] = parseInt(thisIndex);
         }
     });
     for (let link in categoriesLinks) {
-        // console.log(categoriesLinks[link], link);
         // get caategory
         let currentCategory = '';
 
         for(let i in categories) {
-            if(categories[i].includes(parseInt(categoriesLinks[link]))) {
-                currentCategory = i;
+            if(categoriesLinks[link]) {
+                if(categories[i].includes(categoriesLinks[link])) {
+                    currentCategory = i;
+                    console.log(currentCategory);
+                }                    
             }
         }
 
@@ -48,34 +50,45 @@ async function getFacts() {
             } else
                 throw resCategory;
         });
-        let resCategoryData = resCategory.data;
+        if(resCategory.data){
+            let resCategoryData = resCategory.data;
 
-        const itemsSourceReg = /(\bitemsSource\b.*)/g;
-        const sourceLinkReg = /(\bhttp\b.+?\,)/g;
+            const itemsSourceReg = /(\bitemsSource\b.*)/g;
+            const sourceLinkReg = /(\bhttp\b.+?\,)/g;
 
-        let itemsSourceText = itemsSourceReg.exec(resCategoryData);
-        let itemsSourceString = itemsSourceText.toString();
-        let sourceLinksArray = itemsSourceString.match(sourceLinkReg);
+            let itemsSourceText = itemsSourceReg.exec(resCategoryData);
+            let sourceLinksArray;
 
-        let categoryData = cheerio.load(resCategoryData);
+            if(itemsSourceText) {
+                let itemsSourceString = itemsSourceText.toString();
+                sourceLinksArray = itemsSourceString.match(sourceLinkReg);
+            }
+            
+            let categoryData = cheerio.load(resCategoryData);
 
-        categoryData('#items ol > div.i').each(function(i, elem) {
-            let text = targetData(this).find('li').text();
+            categoryData('#items ol > div.i').each(function(i, elem) {
+                let text = targetData(this).find('li').text();
+                let currentSource;
 
-            let currentSource = sourceLinksArray[i] != null ? sourceLinksArray[i].replace(/'.*$/g, "") : null;
+                if(sourceLinksArray) {
+                    currentSource = sourceLinksArray[i] ?  sourceLinksArray[i].replace(/'.*$/g, "") : null;
+                }
 
-            dataIndex++;
-            let data = {
-                id: dataIndex,
-                text: text,
-                source: sourceLinksArray[i].replace(/',/g, ""),
-                category: currentCategory
-            };
-            console.log(data);
-            console.log('----------');
-            resultJSON[dataIndex] = data;
-        });
-    }
+                dataIndex++;
+                let data = {
+                    id: dataIndex,
+                    text: text,
+                    source: currentSource ? currentSource.replace(/',/g, "") : '',
+                    category: currentCategory
+                };
+                console.log(data);
+                console.log('----------');
+                resultJSON[dataIndex] = data;
+            });
+            }
+        }
+        
+        
     return resultJSON;
 }
 
