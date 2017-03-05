@@ -63,7 +63,7 @@ async function getFacts() {
             
             
 
-            if(itemsHTMLText[0]) {
+            if(itemsHTMLText) {
                 let itemsHTMLString = itemsHTMLText[0].toString();
 
                 let itemsHTMLCleanText = itemsHTMLString.replace(/itemsHTML/g, "")
@@ -77,7 +77,7 @@ async function getFacts() {
                 dataTextArray.shift();
             }
 
-            if(itemsSourceText[0]) {
+            if(itemsSourceText) {
                 let itemsSourceString = itemsSourceText[0].toString();
 
                 let itemsSourceCleanText = itemsSourceString.replace(/itemsHTML/g, "")
