@@ -1,6 +1,7 @@
-# brainyquote-crawler
+# nodejs-crawler
 ---
-4.000 quotes - first 9 pages for each of the Popular Topics 
+getQuotes.js -> gets around 5.000 quotes {id, text, author, category} from brainyquotes.com
+getFacts.js -> gets around 5.000 facts {id, text, category, source} from factslides.com
 
 
 
